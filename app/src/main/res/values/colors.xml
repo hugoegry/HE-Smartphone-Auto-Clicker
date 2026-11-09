@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#0B0B0B</color>
+    <color name="bg">#121212</color>
+    <color name="surface">#1C1C1C</color>
+    <color name="surface_elevated">#262626</color>
+    <color name="gray">#8A8A8A</color>
+    <color name="gray_light">#BDBDBD</color>
+    <color name="gray_disable">#555555</color>
+    <color name="gold">#D4AF37</color>
+    <color name="gold_dark">#A8841F</color>
+    <color name="gold_soft">#E8C96A</color>
+    <color name="white">#F5F5F5</color>
+    <color name="text_title">#F0F0F0</color>
+    <color name="text_sub">#9E9E9E</color>
+    <color name="section">#D4AF37</color>
+    <color name="divider">#2E2E2E</color>
+    <color name="point_blue">#D4AF37</color>
+    <color name="menu_bg">#CC141414</color>
+    <color name="banner_bg">#2A2414</color>
+    <color name="banner_text">#E8C96A</color>
+    <color name="red_enable">#D4AF37</color>
+    <color name="green">#D4AF37</color>
+    <color name="green_dark">#A8841F</color>
+</resources>

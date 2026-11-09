@@ -1,0 +1,45 @@
+MIT License
+
+Copyright (c) 2026 Hugo Egry
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+--------------------------------------------------------------------------------
+DISCLAIMER OF LIABILITY
+
+This project is provided for personal, educational and experimentation purposes
+only. By downloading, installing, building, modifying or using the Software,
+you acknowledge and agree that:
+
+1. You use the Software entirely at your own risk.
+2. The author and contributors are not responsible for any damage, data loss,
+   account suspension or ban, device malfunction, security issue, legal claim,
+   or any other direct or indirect consequence that may result from the use
+   or misuse of the Software.
+3. You are solely responsible for complying with the laws of your country and
+   with the terms of service of any third-party application, game or service
+   with which you use this Software. Automated input is often forbidden by
+   those terms.
+4. Accessibility, overlay and screen-capture features can interact with other
+   apps on your device. You must understand and accept those risks before
+   enabling them.
+5. Nothing in this license or in the project documentation constitutes legal,
+   security or professional advice.
+
+If you do not agree with these terms, do not use the Software.

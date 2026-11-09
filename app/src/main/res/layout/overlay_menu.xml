@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menu_root"
+    android:layout_width="52dp"
+    android:layout_height="wrap_content"
+    android:clipChildren="false">
+
+    <LinearLayout
+        android:id="@+id/menu_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@drawable/bg_menu"
+        android:clipChildren="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingLeft="4dp"
+        android:paddingTop="8dp"
+        android:paddingRight="4dp"
+        android:paddingBottom="8dp">
+
+    <ImageButton
+        android:id="@+id/btn_play"
+        android:layout_width="42dp"
+        android:layout_height="40dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/play"
+        android:padding="6dp"
+        android:scaleType="fitCenter"
+        android:soundEffectsEnabled="false"
+        android:src="@drawable/ic_play" />
+
+    <LinearLayout
+        android:id="@+id/menu_mid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipChildren="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/btn_add"
+            android:layout_width="42dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="2dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/add_click"
+            android:padding="6dp"
+            android:scaleType="fitCenter"
+            android:soundEffectsEnabled="false"
+            android:src="@drawable/ic_add" />
+
+        <ImageButton
+            android:id="@+id/btn_swipe"
+            android:layout_width="42dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="2dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/swipe_action"
+            android:padding="4dp"
+            android:scaleType="fitCenter"
+            android:soundEffectsEnabled="false"
+            android:src="@drawable/ic_swipe" />
+
+        <ImageButton
+            android:id="@+id/btn_pinch"
+            android:layout_width="42dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="2dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/gesture_pinch"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            android:soundEffectsEnabled="false"
+            android:src="@drawable/ic_pinch" />
+
+        <ImageButton
+            android:id="@+id/btn_joystick"
+            android:layout_width="42dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="2dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/gesture_joystick"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            android:soundEffectsEnabled="false"
+            android:src="@drawable/ic_joystick" />
+
+        <ImageButton
+            android:id="@+id/btn_blocks"
+            android:layout_width="42dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="2dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/blocks_action"
+            android:padding="7dp"
+            android:scaleType="fitCenter"
+            android:soundEffectsEnabled="false"
+            android:src="@drawable/ic_blocks" />
+
+        <ImageButton
+            android:id="@+id/btn_vision"
+            android:layout_width="42dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="2dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/vision_title"
+            android:padding="7dp"
+            android:scaleType="fitCenter"
+            android:soundEffectsEnabled="false"
+            android:src="@drawable/ic_vision" />
+
+        <ImageButton
+            android:id="@+id/btn_close"
+            android:layout_width="42dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="2dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/remove_action"
+            android:padding="8dp"
+            android:scaleType="fitCenter"
+            android:soundEffectsEnabled="false"
+            android:src="@drawable/ic_remove" />
+
+        <ImageButton
+            android:id="@+id/btn_gear"
+            android:layout_width="42dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="2dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/settings_action"
+            android:padding="7dp"
+            android:scaleType="fitCenter"
+            android:soundEffectsEnabled="false"
+            android:src="@drawable/ic_settings" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/btn_exit"
+        android:layout_width="42dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="2dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/close_action"
+        android:padding="7dp"
+        android:scaleType="fitCenter"
+        android:soundEffectsEnabled="false"
+        android:src="@drawable/ic_close" />
+
+    <ImageButton
+        android:id="@+id/btn_move"
+        android:layout_width="42dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="4dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/move_bar"
+        android:padding="6dp"
+        android:scaleType="fitCenter"
+        android:soundEffectsEnabled="false"
+        android:src="@drawable/ic_move" />
+    </LinearLayout>
+</FrameLayout>

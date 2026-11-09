@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_save_preset"
+        android:title="@string/save_as_preset"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_update_preset"
+        android:title="@string/update_preset"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_close_session"
+        android:title="@string/close_session"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:id="@+id/time_value"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:importantForAutofill="no"
+        android:inputType="numberDecimal"
+        android:maxLength="10"
+        android:paddingLeft="12dp"
+        android:paddingRight="8dp"
+        android:textColor="@color/text_title"
+        android:textSize="17sp" />
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/gold_dark" />
+
+    <TextView
+        android:id="@+id/time_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_time_unit"
+        android:gravity="center"
+        android:minWidth="56dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/time_unit_ms"
+        android:textColor="@color/gold"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+</merge>

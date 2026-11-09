@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.HeSmartPhoneAutoClicker" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/gold</item>
+        <item name="colorPrimaryVariant">@color/gold_dark</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorSecondary">@color/gold_soft</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:windowBackground">@color/bg</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="android:windowOptOutEdgeToEdgeEnforcement" tools:targetApi="35">true</item>
+        <item name="colorControlNormal">@color/gold</item>
+        <item name="android:textColorPrimary">@color/text_title</item>
+        <item name="android:textColorSecondary">@color/text_sub</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/text_title</item>
+    </style>
+    <style name="ThemeOverlay.HeToolbar" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar">
+        <item name="colorControlNormal">@color/gold</item>
+        <item name="android:textColorPrimary">@color/gold</item>
+    </style>
+</resources>

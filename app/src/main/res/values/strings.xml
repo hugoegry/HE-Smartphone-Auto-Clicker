@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HE SmartPhone Auto Clicker</string>
+    <string name="accessibility_desc">HE SmartPhone Auto Clicker plays the taps and swipes you place on the screen. It does not read what is on the screen, it only takes screenshots for the image detectors you turn on.</string>
+    <string name="hub_title">Presets</string>
+    <string name="hub_sub">No clicker is running. Create a new setup or load a saved preset.</string>
+    <string name="create_new">Create</string>
+    <string name="create_new_sub">New blank clicker setup</string>
+    <string name="create_new_sub_short">New blank setup</string>
+    <string name="load_preset">Load asset</string>
+    <string name="load_preset_sub">Open a saved preset</string>
+    <string name="load_preset_sub_short">Saved preset</string>
+    <string name="hub_defaults_title">APPLICATION PARAMETERS</string>
+    <string name="hub_defaults_sub">Defaults for new points and app language</string>
+    <string name="app_lang_label">Language</string>
+    <string name="app_lang_hint">Add a .json file in assets/lang to add a language.</string>
+    <string name="hub_defaults_values">Press %1$dms · Delay %2$dms · Swipe %3$dms</string>
+    <string name="save_as_preset">Save as preset</string>
+    <string name="update_preset">Update preset</string>
+    <string name="close_session">Close</string>
+    <string name="load">Load</string>
+    <string name="no_preset">No preset yet. Create a setup and save it, or import a .hepreset.json file.</string>
+    <string name="import_preset">Import preset</string>
+    <string name="export_preset">Export preset</string>
+    <string name="duplicate_preset">Duplicate preset</string>
+    <string name="preset_duplicated">Preset copied: %1$s</string>
+    <string name="preset_duplicate_fail">Could not duplicate preset</string>
+    <string name="preset_exported">Preset exported</string>
+    <string name="preset_export_fail">Export failed</string>
+    <string name="preset_imported">Preset imported: %1$s</string>
+    <string name="preset_import_fail">Import failed. File invalid.</string>
+    <string name="preset_untitled">Untitled session</string>
+    <string name="preset_named">Preset: %1$s</string>
+    <string name="preset_name_title">Preset name</string>
+    <string name="preset_name_hint">My preset</string>
+    <string name="preset_saved">Preset saved</string>
+    <string name="preset_updated">Preset updated</string>
+    <string name="preset_loaded">Preset loaded. Edit it, then tap Update preset.</string>
+    <string name="preset_need_name">Enter a name for the preset.</string>
+    <string name="preset_max">Max 40 presets.</string>
+    <string name="preset_no_active">Save as preset first, or load one.</string>
+    <string name="session_closed">Session closed. No clicker is active.</string>
+    <string name="preset_actions">%1$d actions</string>
+    <string name="single_target_mode">Single target mode</string>
+    <string name="multi_target_mode">Multi target mode</string>
+    <string name="others">Others</string>
+    <string name="settings">Settings</string>
+    <string name="instructions">Instructions</string>
+    <string name="manage_actions">Manage actions &amp; groups</string>
+    <string name="groups_hint">Main runs on play. Random shuffles each cycle. On demand waits for a manual run.</string>
+    <string name="add_group">Add group</string>
+    <string name="blocks_action">Blocks</string>
+    <string name="blocks_title">Blocks</string>
+    <string name="blocks_hint">Tap Use so + / swipe go in that block. Mode cycles Sequence / Random / On demand.</string>
+    <string name="add_block">Add block</string>
+    <string name="block_use">Use</string>
+    <string name="block_active">Active</string>
+    <string name="block_points_on">ON</string>
+    <string name="block_points_off">OFF</string>
+    <string name="block_selected">Block active: %1$s</string>
+    <string name="block_created">Block created</string>
+    <string name="action_block_label">Block</string>
+    <string name="action_index_value">Index %1$d / %2$d</string>
+    <string name="pick_block_title">Move to block</string>
+    <string name="block_tag_main">Main</string>
+    <string name="new_group_title">New group</string>
+    <string name="rename_group_title">Rename group</string>
+    <string name="group_name_hint">Group name</string>
+    <string name="rename">Rename</string>
+    <string name="run_block">Run</string>
+    <string name="group_main_badge">Main</string>
+    <string name="group_mode_sequence">Sequence</string>
+    <string name="group_mode_random">Random</string>
+    <string name="group_mode_ondemand">On demand</string>
+    <string name="group_meta">%1$d actions · %2$s</string>
+    <string name="group_meta_main">%1$d actions · %2$s · main</string>
+    <string name="group_max">Max 12 groups.</string>
+    <string name="group_need_name">Enter a group name.</string>
+    <string name="group_deleted">Group removed. Actions moved to Main.</string>
+    <string name="group_empty_run">This group has no action.</string>
+    <string name="ondemand_title">On demand blocks</string>
+    <string name="ondemand_hint">Tap a block to run it once.</string>
+    <string name="ondemand_empty">No on demand group yet. Set a group mode to On demand.</string>
+    <string name="ondemand_run">Run %1$s</string>
+    <string name="preset_groups">%1$d actions · %2$d groups</string>
+    <string name="move_to_group">Move to group</string>
+    <string name="common_settings">Common settings</string>
+    <string name="single_settings_sub">Press duration and time before the next click</string>
+    <string name="instructions_sub">How to place points and start</string>
+    <string name="multi_settings_sub">Default press, delay and swipe duration</string>
+    <string name="manage_sub">Edit groups, modes, clicks and swipes</string>
+    <string name="common_sub">Cycles before stop and delayed start</string>
+    <string name="start_delay_sec">Start delay (sec)</string>
+    <string name="block_delay_label">Delay</string>
+    <string name="block_delay_value">%1$d s</string>
+    <string name="start_delay_armed">Starts in %1$d s. Tap pause to cancel.</string>
+    <string name="start_delay_tick">%1$d…</string>
+    <string name="start_delay_cancelled">Delayed start cancelled</string>
+    <string name="enable">Enable</string>
+    <string name="disable">Disable</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="delete_preset_confirm">Etes vous sur de vouloir delete le preset %1$s ?</string>
+    <string name="delete_group_confirm">Etes vous sur de vouloir delete le group %1$s ? Les actions vont dans Main.</string>
+    <string name="play">Play</string>
+    <string name="add_click">Add click</string>
+    <string name="double_click_check">Double click</string>
+    <string name="pick_gesture_title">Add action</string>
+    <string name="gesture_click">Click</string>
+    <string name="gesture_double_click">Double click</string>
+    <string name="gesture_swipe">Swipe</string>
+    <string name="gesture_pinch">Pinch zoom</string>
+    <string name="gesture_multi_touch">Multi-touch</string>
+    <string name="gesture_joystick">Joystick</string>
+    <string name="joystick_title">Joystick %1$d</string>
+    <string name="joystick_row">%1$d · Joystick</string>
+    <string name="joy_mode_label">Joystick mode</string>
+    <string name="joy_mode_random">Random direction</string>
+    <string name="joy_mode_fixed">Fixed direction</string>
+    <string name="joy_mode_sweep">Sweep angles</string>
+    <string name="joy_radius_label">Radius</string>
+    <string name="joy_radius_value">%1$d%% of width</string>
+    <string name="joy_angle_from">Angle from (°)</string>
+    <string name="joy_angle_to">Angle to (°)</string>
+    <string name="joy_hint">Move the disk to place it. Drag the 2 rim knobs for the angle sector. Radius = slider only.</string>
+    <string name="joy_travel_duration">Travel to edge</string>
+    <string name="double_title">Double %1$d</string>
+    <string name="pinch_title">Pinch %1$d</string>
+    <string name="multi_touch_title">Multi %1$d</string>
+    <string name="double_row">%1$d · Double click</string>
+    <string name="pinch_row">%1$d · Pinch</string>
+    <string name="multi_row">%1$d · Multi-touch</string>
+    <string name="pinch_duration">Pinch duration</string>
+    <string name="pinch_mode_label">Pinch mode</string>
+    <string name="pinch_mode_in">Zoom in (pinch)</string>
+    <string name="pinch_mode_out">Zoom out</string>
+    <string name="add_swipe">Add swipe</string>
+    <string name="swipe_action">Swipe</string>
+    <string name="settings_action">Settings</string>
+    <string name="close_action">Close</string>
+    <string name="remove_action">Remove</string>
+    <string name="move_bar">Move bar</string>
+    <string name="overlay_ready">Bar ready. Use + for a tap, swipe arrow for a swipe.</string>
+    <string name="removed_action">Point removed</string>
+    <string name="save_preset_menu">Save as preset</string>
+    <string name="close_bar_menu">Close bar</string>
+    <string name="preset_panel_title">Preset</string>
+    <string name="preset_hint_new">Save this setup as a new preset.</string>
+    <string name="preset_hint_update">Rename or update the current preset.</string>
+    <string name="load_preset_action">Load preset</string>
+    <string name="up">Up</string>
+    <string name="down">Down</string>
+    <string name="edit">Edit</string>
+    <string name="press_duration">Press duration</string>
+    <string name="delay_before_next">Time before next</string>
+    <string name="pause_all_action_on">Pause every block during this action: on</string>
+    <string name="pause_all_action_off">Pause every block during this action: off</string>
+    <string name="pause_all_delay_on">Pause every block during the timer: on</string>
+    <string name="pause_all_delay_off">Pause every block during the timer: off</string>
+    <string name="long_timer_action">Timer %1$s #%2$d  %3$s</string>
+    <string name="long_timer_block">Timer %1$s  %2$s</string>
+    <string name="long_timer_start">Start timer  %1$s</string>
+    <string name="swipe_duration">Swipe duration</string>
+    <string name="swipe_hold_duration">Hold at end</string>
+    <string name="time_unit_ms">ms</string>
+    <string name="time_unit_sec">sec</string>
+    <string name="time_unit_min">min</string>
+    <string name="time_unit_hour">h</string>
+    <string name="start_delay_label">Start delay</string>
+    <string name="cycles_before_stop">Cycles before stop</string>
+    <string name="default_press">Default press duration</string>
+    <string name="default_delay">Default time before next</string>
+    <string name="default_swipe">Default swipe duration</string>
+    <string name="single_title">Single target settings</string>
+    <string name="multi_title">Application parameters</string>
+    <string name="common_title">Common settings</string>
+    <string name="hint_single">The point stays pressed for the first value, then the clicker waits before the next tap.</string>
+    <string name="hint_multi">These values are used when you add a new click or a new swipe.</string>
+    <string name="hint_common">0 cycles = run until pause. Start delay waits before the first action (0 = immediate).</string>
+    <string name="target_title">Target %1$d</string>
+    <string name="swipe_title">Swipe %1$d</string>
+    <string name="click_row">%1$d · Click</string>
+    <string name="swipe_row">%1$d · Swipe</string>
+    <string name="click_detail">Press %1$d ms · wait %2$d ms</string>
+    <string name="swipe_detail">Move %1$d ms · wait %2$d ms</string>
+    <string name="no_action">No action yet. Use + for a tap and the orange arrow for a swipe.</string>
+    <string name="need_overlay">Allow display over other apps, then come back and tap ENABLE.</string>
+    <string name="need_accessibility">Turn on HE SmartPhone Auto Clicker in accessibility, then come back.</string>
+    <string name="banner_both">Allow overlay, then turn on the accessibility service. Tap here.</string>
+    <string name="banner_overlay">Allow display over other apps. Tap here.</string>
+    <string name="banner_a11y">Turn on the accessibility service HE SmartPhone Auto Clicker. Tap here.</string>
+    <string name="single_on">Single target mode is on. Drag the gold point, then press play.</string>
+    <string name="multi_on">Multi target mode is on. Use + for a tap and the arrow for a swipe.</string>
+    <string name="single_one_point">Single target mode keeps one point. Drag the gold circle.</string>
+    <string name="swipe_needs_multi">Swipe is available in multi target mode.</string>
+    <string name="pause_first">Pause the clicker first.</string>
+    <string name="add_target_first">Add a target first.</string>
+    <string name="max_actions">Max 40 actions.</string>
+    <string name="saved_multi">Saved for multi target mode.</string>
+    <string name="editor_failed">Open Manage all actions to edit this target.</string>
+    <string name="instructions_body"><![CDATA[How to use HE SmartPhone Auto Clicker
+
+1. Create a new setup or load a preset. No clicker runs until you enable a mode.
+2. Allow display over other apps.
+3. Turn on the accessibility service named HE SmartPhone Auto Clicker.
+4. Tap ENABLE on one mode. A dark bar shows up on the left.
+
+Presets
+Save as preset stores the current setup.
+If you loaded a preset, edit it then tap Update preset.
+Close returns to the hub and stops the clicker.
+
+Single target mode
+One gold point. Drag it where you want the tap.
+Tap the point to set the press duration and the time before the next tap.
+Press play. Press the same button to pause.
+
+Multi target mode
+Press + to add a tap point.
+Press the orange arrow to add a swipe. Two points show up. The line stays under the points.
+Tap a point to set the press duration, or the swipe duration, and the time before the next action.
+In Manage actions you can split targets into groups.
+Main / Sequence groups run on play in order.
+Random groups shuffle each cycle.
+On demand groups wait for a manual Run from Manage or from the gear panel.
+Press play. Auto groups run, then they start again.
+Drag the move icon at the bottom of the bar to place the bar where you want.
+
+Others
+Common settings sets how many cycles run before stop. 0 means it keeps going until you pause.
+
+The X closes the bar and turns the mode off.]]></string>
+    <string name="vision_title">Image detectors</string>
+    <string name="vision_hint">Spot an element on screen, wait a timer, then run a block.</string>
+    <string name="vision_add">+ Add detector</string>
+    <string name="vision_add_text">+ Text</string>
+    <string name="vision_text_name">Banner text %1$d</string>
+    <string name="vision_text_label">Text to find</string>
+    <string name="vision_text_hint">One phrase per line</string>
+    <string name="vision_text_help">One line is enough. Remote Play has no text tree, we read the pixels.</string>
+    <string name="vision_text_need">Write at least one phrase</string>
+    <string name="vision_text_zone_hint">Box around the banner. Smaller is faster.</string>
+    <string name="vision_text_threshold">Text match: %1$d%%</string>
+    <string name="vision_text_found">Ok %1$d%% : %2$s</string>
+    <string name="vision_text_low">%1$d%% (need %2$d%%) : %3$s</string>
+    <string name="vision_text_empty">No text read in this zone</string>
+    <string name="vision_close">Close</string>
+    <string name="vision_empty">No detector yet. Add one to start.</string>
+    <string name="vision_max">Max 12 detectors.</string>
+    <string name="vision_on">ON</string>
+    <string name="vision_off">OFF</string>
+    <string name="vision_edit">Edit</string>
+    <string name="vision_deleted">Detector deleted</string>
+    <string name="vision_saved">Detector saved</string>
+    <string name="vision_save_failed">Could not save the image</string>
+    <string name="vision_tpl_missing">Detector image missing</string>
+    <string name="vision_row_meta">Timer %1$s | %2$s | %3$s</string>
+    <string name="vision_instant">none</string>
+    <string name="vision_block_none">no block</string>
+    <string name="vision_pause_none_short">rest keeps running</string>
+    <string name="vision_pause_all_short">pause all</string>
+    <string name="vision_pause_action_short">pause during action</string>
+    <string name="vision_pause_none">Rest keeps running</string>
+    <string name="vision_pause_all">Pause rest: timer + action</string>
+    <string name="vision_pause_action">Pause rest: only during action</string>
+    <string name="vision_capture_hint">Drag a box around what to detect. Move the corners to adjust.</string>
+    <string name="vision_confirm">Confirm</string>
+    <string name="vision_too_small">Box too small (min 20 px)</string>
+    <string name="vision_too_flat">Too plain, pick an area with more details</string>
+    <string name="vision_capture_failed">Screen capture failed (code %1$d)</string>
+    <string name="vision_black_screen">Screen is black: protected app (Remote Play?). Detection can not see it.</string>
+    <string name="vision_need_android11">Image detection needs Android 11 or more</string>
+    <string name="vision_fired">%1$s detected</string>
+    <string name="vision_fired_timer">%1$s detected, action in %2$s</string>
+    <string name="vision_edit_title">Detector</string>
+    <string name="vision_name_label">Name</string>
+    <string name="vision_name_default">Detector %1$d</string>
+    <string name="vision_zone_label">Search zone</string>
+    <string name="vision_zone_near">Around</string>
+    <string name="vision_zone_screen">Whole screen</string>
+    <string name="vision_zone_pick">Draw zone</string>
+    <string name="vision_zone_all_txt">Looks on the whole screen (slower)</string>
+    <string name="vision_zone_summary">Only x %1$d-%2$d%%, y %3$d-%4$d%%. Nothing outside.</string>
+    <string name="vision_zone_hint">Draw a tight box around the icon. Only that box is watched.</string>
+    <string name="vision_threshold_label">Match needed: %1$d%%</string>
+    <string name="vision_ai_hint">Free Gemini key, empty = photo only</string>
+    <string name="vision_add_view">Add a view (%1$d)</string>
+    <string name="vision_view_added">View added (%1$d)</string>
+    <string name="vision_test">Test now</string>
+    <string name="vision_test_running">Testing...</string>
+    <string name="vision_test_found">Found: %1$d%% at %2$d,%3$d</string>
+    <string name="vision_test_low">Best match %1$d%% at %2$d,%3$d (needs %4$d%%)</string>
+    <string name="vision_test_not_found">Nothing found in this zone</string>
+    <string name="vision_test_black">Screen is black: protected app, can not read it</string>
+    <string name="vision_test_fail">Capture failed (code %1$d)</string>
+    <string name="vision_timer_label">Timer before action</string>
+    <string name="vision_pause_label">Rest of the auto clicker</string>
+    <string name="vision_block_label">Block to run</string>
+    <string name="vision_no_block">Create an on demand block first</string>
+    <string name="vision_repeat_label">Trigger again every (0 = once per appearance)</string>
+    <string name="vision_status_secure">Remote Play protected: black capture</string>
+</resources>
